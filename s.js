@@ -1,2 +1,3 @@
-alert("hehehe");
-window.addEventListener("load", function() { alert("hello!");});
+function myFunction() {
+    alert("Work work work");
+}

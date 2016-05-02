@@ -1,4 +1,6 @@
-window.onload = function(e) {
-              alert("test");
-                console.log("window loaded");
-            };
+window.onload = hello; 
+
+function hello() { 
+    var name = prompt("What is your name", "");
+    alert("Hello " + name + "! Welcome to my forum."); 
+}
